@@ -32,7 +32,8 @@ public class stepDefinition extends utils {
 		req = given().spec(addPlaceAPIRequestSpecification()).body(data.requestTestData(name, language, address));
 		System.out.println("This message is Just for Testing");
 		System.out.println("This message is Just for Testing pull feature");
-		System.out.println("This message is to test branch");
+		System.out.println("This message is to test branch in GIthub");
+		
 
 	}
 
