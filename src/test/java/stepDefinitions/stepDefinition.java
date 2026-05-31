@@ -30,7 +30,7 @@ public class stepDefinition extends utils {
 	public void add_place_api_payload(String name, String language, String address) throws IOException {
 
 		req = given().spec(addPlaceAPIRequestSpecification()).body(data.requestTestData(name, language, address));
-
+		System.out.println("This message is Just for Testing");
 	}
 
 	@When("user Calls {string} api with {string} https request")
