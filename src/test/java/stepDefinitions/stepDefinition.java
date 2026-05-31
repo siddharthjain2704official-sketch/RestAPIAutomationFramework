@@ -31,6 +31,8 @@ public class stepDefinition extends utils {
 
 		req = given().spec(addPlaceAPIRequestSpecification()).body(data.requestTestData(name, language, address));
 		System.out.println("This message is Just for Testing");
+		System.out.println("This message is Just for Testing pull feature");
+
 	}
 
 	@When("user Calls {string} api with {string} https request")
