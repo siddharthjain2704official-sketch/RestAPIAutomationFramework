@@ -30,9 +30,6 @@ public class stepDefinition extends utils {
 	public void add_place_api_payload(String name, String language, String address) throws IOException {
 
 		req = given().spec(addPlaceAPIRequestSpecification()).body(data.requestTestData(name, language, address));
-		System.out.println("This message is Just for Testing");
-		System.out.println("This message is Just for Testing pull feature");
-		System.out.println("This message is to test branch in GIthub");
 		
 
 	}
